@@ -2,16 +2,16 @@
 <testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="42732" started-at="2020-01-18T10:38:48Z" finished-at="2020-01-18T10:39:30Z">
+  <suite name="Default suite" duration-ms="28809" started-at="2020-01-18T12:30:43Z" finished-at="2020-01-18T12:31:12Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="42732" started-at="2020-01-18T10:38:48Z" finished-at="2020-01-18T10:39:30Z">
-      <class name="Package2.PriceCompareTest">
-        <test-method status="PASS" signature="priceComparisionOfIphone()[pri:0, instance:Package2.PriceCompareTest@56f4468b]" name="priceComparisionOfIphone" duration-ms="42704" started-at="2020-01-18T16:08:48Z" finished-at="2020-01-18T16:09:30Z">
+    <test name="Default test" duration-ms="28809" started-at="2020-01-18T12:30:43Z" finished-at="2020-01-18T12:31:12Z">
+      <class name="Package2.SubmitReviewTest">
+        <test-method status="PASS" signature="submitReview()[pri:0, instance:Package2.SubmitReviewTest@56f4468b]" name="submitReview" duration-ms="28786" started-at="2020-01-18T18:00:43Z" finished-at="2020-01-18T18:01:12Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- priceComparisionOfIphone -->
-      </class> <!-- Package2.PriceCompareTest -->
+        </test-method> <!-- submitReview -->
+      </class> <!-- Package2.SubmitReviewTest -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
