@@ -22,7 +22,6 @@ public class PriceCompareTest
         PriceCompare.clickOnSearchIcon();
         SeleniumUtils.sleep();
         String S = SeleniumUtils.priceinAmazon();
-        System.out.println(S);
         SeleniumUtils.getURL("https://www.flipkart.com/");
         SeleniumUtils.sleep();
         PriceCompare.clickOnClosebtn();
@@ -30,8 +29,7 @@ public class PriceCompareTest
         PriceCompare.clickOnSearchIcon1();
         SeleniumUtils.sleep();
         String S1 = SeleniumUtils.priceinFlipkart();
-        System.out.println(S1);
-        
+                
         String Str = S.replace(",", "");
         String Str1 = S1.replace(",", "");
         String Str2 = Str1.substring(1);
